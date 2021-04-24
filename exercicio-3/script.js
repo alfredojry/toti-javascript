@@ -22,8 +22,8 @@ if (pessoas.length > 1) {
     let arrPorIdade = pessoas.sort((a, b) => a.idade - b.idade);
     let maisVelho = arrPorIdade[arrPorIdade.length - 1];
     let maisNovo  = arrPorIdade[0];
-    let message1 = `${maisVelho.nome} com ${maisVelho.idade} é o/a mais velho/a`;
-    let message2 = `${maisNovo.nome} com ${maisNovo.idade} é o/a mais novo/a`;
+    let message1 = `${maisVelho.nome} com ${maisVelho.idade} anos é o/a mais velho/a`;
+    let message2 = `${maisNovo.nome} com ${maisNovo.idade} anos é o/a mais novo/a`;
     console.log(message1);
     console.log(message2);
 } else console.log('Insuficientes pessoas para analizar.')
