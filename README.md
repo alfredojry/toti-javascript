@@ -2,3 +2,5 @@
 [Exercício 01 - JavaScript](https://alfredojry.github.io/toti-javascript/prompt)
 
 [Exercício 02 - JavaScript](https://alfredojry.github.io/toti-javascript/comparador)
+
+[Exercício 03 - JavaScript](https://alfredojry.github.io/toti-javascript/exercicio-3)
