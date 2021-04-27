@@ -1,10 +1,13 @@
 // carregando os items UF do select
 window.addEventListener('DOMContentLoaded', function() {
+    let select = document.querySelector('select');
+    let disabled = document.getElementById('option-disabled');
+    disabled.textContent = 'Por favor, espere...';
     fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados/')
         .then(resp => resp.json())
         .then(data => {
+            disabled.textContent = 'Escolha um estado';
             let dataSorted = data.sort((a, b) => a.nome.localeCompare(b.nome));
-            let select = document.querySelector('select');
             for (let item of dataSorted) {
                 let option = document.createElement('option');
                 option.value = item.sigla;
