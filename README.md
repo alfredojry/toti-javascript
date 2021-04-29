@@ -8,3 +8,7 @@
 [Exercício 04 - JavaScript](https://alfredojry.github.io/toti-javascript/exercicio-4)
 
 [Exercício 05 - JavaScript](https://alfredojry.github.io/toti-javascript/exercicio-5)
+
+## Extra
+
+[Algoritmo de validação de CPF](https://alfredojry.github.io/toti-javascript/valida-cpf)
