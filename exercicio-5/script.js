@@ -15,7 +15,10 @@ window.addEventListener('DOMContentLoaded', function() {
                 select.appendChild(option);
             }
         })
-        .catch(error => {console.log(error);});
+        .catch(error => {
+            console.log(error);
+            disabled.textContent = 'Sem conexão';
+        });
 });
 
 // carregando a informação do estado
@@ -43,4 +46,8 @@ select.addEventListener('change', function (event) {
                 ul.appendChild(li);
             }
         })
+        .catch(error => {
+            console.log(error);
+            head.innerHTML = '<p>Sem conexão</p>';
+        });
 });
