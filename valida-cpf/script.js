@@ -51,17 +51,3 @@ function verificador2(cpf, v1) {
     v2 %= 10;
     return v2;
 }
-
-(function () {
-    let cpf = '70826636250';
-    let v1 = verificador1(cpf);
-    let v2 = verificador2(cpf, v1)
-    console.log(`CPF : ${cpf} | Dígitos: ${v1} & ${v2}`)
-})();
-
-(function () {
-    let cpf = '70826635288';
-    let v1 = verificador1(cpf);
-    let v2 = verificador2(cpf, v1)
-    console.log(`CPF : ${cpf} | Dígitos: ${v1} & ${v2}`)
-})();
